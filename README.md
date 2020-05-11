@@ -2,14 +2,9 @@
 
 > A curated list of resources for the Flatpak packaging system.
 
-## Contents
+## TOC
 
-- [Remotes](#remotes)
-- [Tools](#tools)
-- [Apps](#apps)
-- [Runtimes](#runtimes)
-- [Portal](#portal)
-- [Docs](#docs)
+[Remotes](#remotes) | [Tools](#tools) | [Apps](#apps) | [Runtimes](#runtimes) | [Portal](#portal) | [Docs](#docs)
 
 ## Remotes
 
