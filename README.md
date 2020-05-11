@@ -6,6 +6,9 @@
 
 - [Remotes](#remotes)
 - [Tools](#tools)
+- [Apps](#apps)
+- [Runtimes](#runtimes)
+- [Portal](#portal)
 - [Docs](#docs)
 
 ## Remotes
@@ -15,35 +18,81 @@ Official:
 - [flathub](https://flathub.org/repo/flathub.flatpakrepo)
 - [flathub- beta](https://flathub.org/beta- repo/flathub- beta.flatpakrepo)
 - [gnome- nightly](https://nightly.gnome.org/gnome- nightly.flatpakrepo)
-- [kdeapps](https://distribute.kde.org/kdeapps.flatpakrepo)
+- [kdeapps](https://distribute.kde.org/kdeapps.flatpakrepo) - [list of apps](https://cgit.kde.org/flatpak-kde-applications.git/tree/)
 - [liro](https://repo.liri.io/flatpak/liri.flatpakrepo)
 
 Others:
 
 - [winepak](https://dl.winepak.org/repo/winepak.flatpakrepo)
 - [firefox](https://firefox- flatpak.mojefedora.cz/)
-- [skype](https://github.com/snaggen/skype- app) -  2017
+- [skype](https://github.com/snaggen/skype-app) -  2017
 
 ## Tools
 
 - [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal) -  Permissions manager for Flatpak Apps
+- rpm2flatpak
+- [game-to-flatpak](https://github.com/hadess/flatpak-games) - 2018
 
-- [flathub- app- search](https://flathub.org/apps)
+## Apps
+
+- [Flathub wiki list](https://github.com/flatpak/flatpak/wiki/Examples)
+- [Flathub Search](https://flathub.org/apps)
+
+## Runtimes
+
+Runtimes provide basic dependencies that can be used by applications. They also provide the environment that applications run in.
+
+Platforms:
+
+- [org.freedesktop.Platform -](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/)
+- org.freedesktop.BasePlatform - a smaller runtime
+
+- [org.kde.Platform -](https://invent.kde.org/kde/flatpak-kde-runtime) ([Docs](https://community.kde.org/Guidelines_and_HOWTOs/Flatpak))
+- [org.gnome.Platform](https://gitlab.gnome.org/GNOME/gnome-build-meta)
+- [org.fedora.Platform](https://docs.fedoraproject.org/en-US/flatpak/runtimes/)
+- org.fedoraproject.BasePlatform - a smaller runtime
+- [org.winepak.Platform](https://github.com/winepak/winepak-sdk-images)
+
+Base Apps:
+
+Base apps contain collections of bundled dependencies which can then be bundled as part of an application. 
+
+
+
+## Portal
+
+Flatpak apps interface with the host system mostly via DBUS calls
+to the a daemon (xdg-desktop-portal)[https://github.com/flatpak/xdg-desktop-portal] running on the host system.
+
+- [Flathub Wiki Docs](https://github.com/flatpak/flatpak/wiki/Portals)
+- [Portal Daemon Docs](https://flatpak.github.io/xdg-desktop-portal/portal-docs.html)
+
+Backends:
+
+To implement most portals, the portal relies on backends like these that provides implementations of the `org.freedesktop.impl.portal.*` interfaces.
+
+- [xdg-desktop-portal-gtk](https://github.com/flatpak/xdg-desktop-portal-gtk) - for GNOME desktops
+- [xdg-desktop-portal-kde](https://github.com/KDE/xdg-desktop-portal-kde) - for KDE desktop
+- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) - for wlroots-based compositors like Sway
+    - supported iterfaces: Request, Session, Screenshot, Screencast
 
 ## Docs
 
-- [flathub](https://docs.flatpak.org/en/latest/)
-- [FAQ](https://flatpak.org/faq/)
-- [Debian](https://wiki.debian.org/FlatPak)
+- [flatpak dev docs](https://docs.flatpak.org/en/latest/)
+- [flatpak wiki](https://github.com/flatpak/flatpak/wiki)
+- [flatpak FAQ](https://flatpak.org/faq/)
+- [Debian Wiki](https://wiki.debian.org/FlatPak)
 - [ArchWiki](https://wiki.archlinux.org/index.php/Flatpak)
+- [Fedora](https://docs.fedoraproject.org/en-US/flatpak/)
+- [NixOS](https://nixos.org/nixos/manual/index.html#module-services-flatpak)
 
-### News
+News:
 
 - https://flatpak.org/blog-posts/
 
 ## Contribute
 
-Contributions welcome! Read [contributing.md](contributing.md) first.
+Contributions welcome! Read [Contributing.md](Contributing.md) first.
 
 ## License
 
