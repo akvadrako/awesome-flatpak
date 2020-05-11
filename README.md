@@ -2,24 +2,22 @@
 
 > A curated list of resources for the Flatpak packaging system.
 
-## TOC
-
-[Remotes](#remotes) | [Tools](#tools) | [Apps](#apps) | [Runtimes](#runtimes) | [Portal](#portal) | [Docs](#docs)
+**Contents:** [Remotes](#remotes) | [Tools](#tools) | [Apps](#apps) | [Runtimes](#runtimes) | [Portal](#portal) | [Docs](#docs)
 
 ## Remotes
 
 Official:
 
 - [flathub](https://flathub.org/repo/flathub.flatpakrepo)
-- [flathub- beta](https://flathub.org/beta- repo/flathub- beta.flatpakrepo)
-- [gnome- nightly](https://nightly.gnome.org/gnome- nightly.flatpakrepo)
+- [flathub-beta](https://flathub.org/beta-repo/flathub-beta.flatpakrepo)
+- [gnome-nightly](https://nightly.gnome.org/gnome-nightly.flatpakrepo)
 - [kdeapps](https://distribute.kde.org/kdeapps.flatpakrepo) - [list of apps](https://cgit.kde.org/flatpak-kde-applications.git/tree/)
 - [liro](https://repo.liri.io/flatpak/liri.flatpakrepo)
 
 Others:
 
 - [winepak](https://dl.winepak.org/repo/winepak.flatpakrepo)
-- [firefox](https://firefox- flatpak.mojefedora.cz/)
+- [firefox](https://firefox-flatpak.mojefedora.cz/)
 - [skype](https://github.com/snaggen/skype-app) -  2017
 
 ## Tools
@@ -52,6 +50,8 @@ Base Apps:
 
 Base apps contain collections of bundled dependencies which can then be bundled as part of an application. 
 
+- [org.electronjs.Electron2.BaseApp](https://github.com/flathub/org.electronjs.Electron2.BaseApp)
+- [io.atom.electron.BaseApp](https://github.com/endlessm/electron-flatpak-base-app) - [example](https://github.com/flathub/electron-sample-app), deprecated
 
 
 ## Portal
