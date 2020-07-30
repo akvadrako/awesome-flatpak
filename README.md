@@ -1,4 +1,4 @@
-# Awesome Flatpak [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Flatpak
 
 > A curated list of resources for the Flatpak packaging system.
 
