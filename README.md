@@ -4,6 +4,14 @@
 
 **Contents:** [Remotes](#remotes) | [Tools](#tools) | [Apps](#apps) | [Runtimes](#runtimes) | [Portal](#portal) | [Docs](#docs)
 
+## Quick Reference
+
+| task | example |
+| --- | --- |
+| install app | `flatpak install flatseal` |
+| show permissions | `flatpak info --show-permissions oorg.kde.digikam` |
+| list installed apps | `flatpak list` |
+
 ## Remotes
 
 Official:
@@ -35,24 +43,22 @@ Others:
 
 Runtimes provide basic dependencies that can be used by applications. They also provide the environment that applications run in.
 
-Platforms:
+### Platforms
 
 - [org.freedesktop.Platform -](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/)
 - org.freedesktop.BasePlatform - a smaller runtime
-
 - [org.kde.Platform -](https://invent.kde.org/kde/flatpak-kde-runtime) ([Docs](https://community.kde.org/Guidelines_and_HOWTOs/Flatpak))
 - [org.gnome.Platform](https://gitlab.gnome.org/GNOME/gnome-build-meta)
 - [org.fedora.Platform](https://docs.fedoraproject.org/en-US/flatpak/runtimes/)
 - org.fedoraproject.BasePlatform - a smaller runtime
 - [org.winepak.Platform](https://github.com/winepak/winepak-sdk-images)
 
-Base Apps:
+### Base Apps
 
 Base apps contain collections of bundled dependencies which can then be bundled as part of an application. 
 
 - [org.electronjs.Electron2.BaseApp](https://github.com/flathub/org.electronjs.Electron2.BaseApp)
 - [io.atom.electron.BaseApp](https://github.com/endlessm/electron-flatpak-base-app) - [example](https://github.com/flathub/electron-sample-app), deprecated
-
 
 ## Portal
 
@@ -62,7 +68,7 @@ to the a daemon (xdg-desktop-portal)[https://github.com/flatpak/xdg-desktop-port
 - [Flathub Wiki Docs](https://github.com/flatpak/flatpak/wiki/Portals)
 - [Portal Daemon Docs](https://flatpak.github.io/xdg-desktop-portal/portal-docs.html)
 
-Backends:
+### Backends
 
 To implement most portals, the portal relies on backends like these that provides implementations of the `org.freedesktop.impl.portal.*` interfaces.
 
@@ -80,6 +86,7 @@ To implement most portals, the portal relies on backends like these that provide
 - [ArchWiki](https://wiki.archlinux.org/index.php/Flatpak)
 - [Fedora](https://docs.fedoraproject.org/en-US/flatpak/)
 - [NixOS](https://nixos.org/nixos/manual/index.html#module-services-flatpak)
+- [cheatsheet](https://docs.fedoraproject.org/en-US/fedora-silverblue/_attachments/flatpak-print-cheatsheet.pdf)
 
 News:
 
