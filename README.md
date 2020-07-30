@@ -63,7 +63,7 @@ Base apps contain collections of bundled dependencies which can then be bundled 
 ## Portal
 
 Flatpak apps interface with the host system mostly via DBUS calls
-to the a daemon (xdg-desktop-portal)[https://github.com/flatpak/xdg-desktop-portal] running on the host system.
+to the a daemon [xdg-desktop-portal](https://github.com/flatpak/xdg-desktop-portal) running on the host system.
 
 - [Flathub Wiki Docs](https://github.com/flatpak/flatpak/wiki/Portals)
 - [Portal Daemon Docs](https://flatpak.github.io/xdg-desktop-portal/portal-docs.html)
