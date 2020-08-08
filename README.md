@@ -94,7 +94,7 @@ News:
 
 ## Contribute
 
-Contributions welcome! Read [Contributing.md](Contributing.md) first.
+Contributions welcome. Don't feel the need to put too much effort into it. For now, anything flatpak focused will be accepted and I'll work on the formatting if needed.
 
 ## License
 
