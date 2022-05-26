@@ -8,19 +8,20 @@
 
 | task | example |
 | --- | --- |
-| install app | `flatpak install flatseal` |
-| show permissions | `flatpak info --show-permissions oorg.kde.digikam` |
-| list installed apps | `flatpak list` |
+| Install app | ```flatpak install flatseal``` |
+| Show permissions | ```flatpak info --show-permissions org.kde.digikam``` |
+| Check size | ```flatpak list --columns=name,size``` | 
+| Delete data | ```flatpak remove --delete-data``` |
 
 ## Remotes
 
 Official:
 
-- [flathub](https://flathub.org/repo/flathub.flatpakrepo)
-- [flathub-beta](https://flathub.org/beta-repo/flathub-beta.flatpakrepo)
+- [Flathub](https://flathub.org/repo/flathub.flatpakrepo)
+- [Flathub-beta](https://flathub.org/beta-repo/flathub-beta.flatpakrepo)
 - [gnome-nightly](https://nightly.gnome.org/gnome-nightly.flatpakrepo)
 - [kdeapps](https://distribute.kde.org/kdeapps.flatpakrepo) - [list of apps](https://cgit.kde.org/flatpak-kde-applications.git/tree/)
-- [liro](https://repo.liri.io/flatpak/liri.flatpakrepo)
+- [liri](https://repo.liri.io/flatpak/liri.flatpakrepo)
 
 Others:
 
@@ -33,6 +34,7 @@ Others:
 - [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal) -  Permissions manager for Flatpak Apps
 - rpm2flatpak
 - [game-to-flatpak](https://github.com/hadess/flatpak-games) - 2018
+- [Souk](https://gitlab.gnome.org/haecker-felix/souk) - Souk is a flatpak-based App Store, written with GTK4 and Rust.
 
 ## Apps
 
@@ -73,9 +75,9 @@ to the a daemon [xdg-desktop-portal](https://github.com/flatpak/xdg-desktop-port
 To implement most portals, the portal relies on backends like these that provides implementations of the `org.freedesktop.impl.portal.*` interfaces.
 
 - [xdg-desktop-portal-gtk](https://github.com/flatpak/xdg-desktop-portal-gtk) - for GNOME desktops
-- [xdg-desktop-portal-kde](https://github.com/KDE/xdg-desktop-portal-kde) - for KDE desktop
+- [xdg-desktop-portal-kde](https://github.com/KDE/xdg-desktop-portal-kde) - for KDE desktops
+- [xdg-desktop-portal-lxqt](https://github.com/lxqt/xdg-desktop-portal-lxqt) - for LXQt desktops
 - [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) - for wlroots-based compositors like Sway
-    - supported iterfaces: Request, Session, Screenshot, Screencast
 
 ## Docs
 
@@ -88,7 +90,7 @@ To implement most portals, the portal relies on backends like these that provide
 - [NixOS](https://nixos.org/nixos/manual/index.html#module-services-flatpak)
 - [cheatsheet](https://docs.fedoraproject.org/en-US/fedora-silverblue/_attachments/flatpak-print-cheatsheet.pdf)
 
-News:
+## News:
 
 - https://flatpak.org/blog-posts/
 
