@@ -20,8 +20,7 @@ Official:
 - [Flathub](https://flathub.org/repo/flathub.flatpakrepo)
 - [Flathub-beta](https://flathub.org/beta-repo/flathub-beta.flatpakrepo)
 - [gnome-nightly](https://nightly.gnome.org/gnome-nightly.flatpakrepo)
-- [kdeapps](https://distribute.kde.org/kdeapps.flatpakrepo) - [list of apps](https://cgit.kde.org/flatpak-kde-applications.git/tree/)
-- [liri](https://repo.liri.io/flatpak/liri.flatpakrepo)
+- [kdeapps](https://distribute.kde.org/kdeapps.flatpakrepo)
 
 Others:
 
@@ -30,16 +29,20 @@ Others:
 - [skype](https://github.com/snaggen/skype-app) -  2017
 
 ## Tools
-
-- [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal) -  Permissions manager for Flatpak Apps
-- rpm2flatpak
-- [game-to-flatpak](https://github.com/hadess/flatpak-games) - 2018
+### App Stores
 - [Souk](https://gitlab.gnome.org/haecker-felix/souk) - Souk is a flatpak-based App Store, written with GTK4 and Rust.
+- [bauh](https://github.com/vinifmor/bauh) - Graphical user interface for installing Linux applications. Supports AppImage, Arch packages (AUR, Pacman), Debian packages, Flatpak, Snap and native Web applications
+- [Zorin Store](https://zorin.com/os/) - Zorin OS Store comes pre-loaded with the app catalogs of Flathub, the Snap store, and the Ubuntu & Zorin OS APT repositories, AppImage packages and Windows apps (optionally using Windows App Support, powered by WINE)
+### Another Tools
+- [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal) -  Permissions manager for Flatpak Apps
+- [Unsnap](https://github.com/popey/unsnap) - Quickly migrate from using snap packages to flatpaks
+- [Sideload](https://github.com/elementary/sideload) - Tool for fast installation .flatpakrefs files, developed Elementary
 
 ## Apps
 
 - [Flathub wiki list](https://github.com/flatpak/flatpak/wiki/Examples)
 - [Flathub Search](https://flathub.org/apps)
+- [Flathub Another Search](https://beta.flathub.org/)
 
 ## Runtimes
 
@@ -49,7 +52,7 @@ Runtimes provide basic dependencies that can be used by applications. They also 
 
 - [org.freedesktop.Platform -](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/)
 - org.freedesktop.BasePlatform - a smaller runtime
-- [org.kde.Platform -](https://invent.kde.org/kde/flatpak-kde-runtime) ([Docs](https://community.kde.org/Guidelines_and_HOWTOs/Flatpak))
+- [org.kde.Platform](https://invent.kde.org/kde/flatpak-kde-runtime) ([Docs](https://community.kde.org/Guidelines_and_HOWTOs/Flatpak))
 - [org.gnome.Platform](https://gitlab.gnome.org/GNOME/gnome-build-meta)
 - [org.fedora.Platform](https://docs.fedoraproject.org/en-US/flatpak/runtimes/)
 - org.fedoraproject.BasePlatform - a smaller runtime
@@ -75,6 +78,7 @@ to the a daemon [xdg-desktop-portal](https://github.com/flatpak/xdg-desktop-port
 To implement most portals, the portal relies on backends like these that provides implementations of the `org.freedesktop.impl.portal.*` interfaces.
 
 - [xdg-desktop-portal-gtk](https://github.com/flatpak/xdg-desktop-portal-gtk) - for GNOME desktops
+- [portals](https://github.com/elementary/portals) - for Elementary desktops
 - [xdg-desktop-portal-kde](https://github.com/KDE/xdg-desktop-portal-kde) - for KDE desktops
 - [xdg-desktop-portal-lxqt](https://github.com/lxqt/xdg-desktop-portal-lxqt) - for LXQt desktops
 - [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) - for wlroots-based compositors like Sway
@@ -93,6 +97,8 @@ To implement most portals, the portal relies on backends like these that provide
 ## News:
 
 - https://flatpak.org/blog-posts/
+- https://beta.flathub.org/feeds - Rss feeds
+- https://twitter.com/FlathubP - Twitter Account which notify you, when published new or updated flatpak
 
 ## Contribute
 
