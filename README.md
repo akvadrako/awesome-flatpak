@@ -78,7 +78,7 @@ to the a daemon [xdg-desktop-portal](https://github.com/flatpak/xdg-desktop-port
 To implement most portals, the portal relies on backends like these that provides implementations of the `org.freedesktop.impl.portal.*` interfaces.
 
 - [xdg-desktop-portal-gtk](https://github.com/flatpak/xdg-desktop-portal-gtk) - for GNOME desktops
-- [portals](https://github.com/elementary/portals) - for Elementary desktops
+- [Pantheon XDG Desktop Portals](https://github.com/elementary/portals) - for Elementary desktops
 - [xdg-desktop-portal-kde](https://github.com/KDE/xdg-desktop-portal-kde) - for KDE desktops
 - [xdg-desktop-portal-lxqt](https://github.com/lxqt/xdg-desktop-portal-lxqt) - for LXQt desktops
 - [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) - for wlroots-based compositors like Sway
