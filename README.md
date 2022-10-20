@@ -37,7 +37,7 @@ Others:
 ## Apps
 
 - [Flathub wiki list](https://github.com/flatpak/flatpak/wiki/Examples)
-- [Flathub Search](https://flathub.org/apps)
+- [Flathub search](https://flathub.org/apps)
 
 ## Runtimes
 
