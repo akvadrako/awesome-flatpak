@@ -43,6 +43,7 @@ Others:
 - [Sideload](https://github.com/elementary/sideload) - Tool for fast installation .flatpakrefs files, developed Elementary
 - *old* rpm2flatpak
 - *old* [game-to-flatpak](https://github.com/hadess/flatpak-games) - 2018
+- [flatterm](https://gitlab.gnome.org/chergert/flatterm) - demo application to help you create a terminal that can run both inside and outside of flatpaks
 
 ## Apps
 
