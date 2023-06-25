@@ -25,6 +25,7 @@ Official:
 
 Others:
 
+- [tinywrkb/flatpaks](https://github.com/tinywrkb/flatpaks) - hastily packaged apps, mainly adapted from Arch's AUR
 - [winepak](https://dl.winepak.org/repo/winepak.flatpakrepo)
 - [firefox](https://firefox-flatpak.mojefedora.cz/)
 - [skype](https://github.com/snaggen/skype-app) -  2017
